@@ -51,14 +51,6 @@
   "_dependenciesComments": {
     "parse5": "Pinned to exact version number because we monkeypatch its internals (see htmltodom.js)"
   },
-  "peerDependencies": {
-    "@napi-rs/canvas": "^0.1.39"
-  },
-  "peerDependenciesMeta": {
-    "@napi-rs/canvas": {
-      "optional": true
-    }
-  },
   "devDependencies": {
     "@domenic/eslint-config": "^1.4.0",
     "benchmark": "^2.1.4",
@@ -84,7 +76,6 @@
     "yargs": "^17.2.1"
   },
   "browser": {
-    "@napi-rs/canvas": false,
     "vm": "./lib/jsdom/vm-shim.js",
     "./lib/jsdom/living/websockets/WebSocket-impl.js": "./lib/jsdom/living/websockets/WebSocket-impl-browser.js"
   },
