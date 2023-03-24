@@ -52,10 +52,10 @@
     "parse5": "Pinned to exact version number because we monkeypatch its internals (see htmltodom.js)"
   },
   "peerDependencies": {
-    "canvas": "^2.5.0"
+    "@napi-rs/canvas": "^0.1.39"
   },
   "peerDependenciesMeta": {
-    "canvas": {
+    "@napi-rs/canvas": {
       "optional": true
     }
   },
@@ -84,7 +84,7 @@
     "yargs": "^17.2.1"
   },
   "browser": {
-    "canvas": false,
+    "@napi-rs/canvas": false,
     "vm": "./lib/jsdom/vm-shim.js",
     "./lib/jsdom/living/websockets/WebSocket-impl.js": "./lib/jsdom/living/websockets/WebSocket-impl-browser.js"
   },
